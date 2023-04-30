@@ -5,7 +5,7 @@ from discord.ext import commands
 global img
 import yt_dlp as youtube_dl
 
-d_token = 'MTEwMTQ0NjM4NjM4NzUzNzk5Mg.GSuEsn.0nazJQzpdElF-tTjfzbJt5FFHs1UfENk70G65g'
+d_token = 'token'
 
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix='!', intents=intents)
